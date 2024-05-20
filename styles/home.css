@@ -33,8 +33,7 @@ body{
     box-shadow: 11px 3px 24px -4px rgba(0,0,0,0.75);
 }
 .recipe-img{
-    width:100px;
-    height:200px;
+    width:300px;
     display: block;
     margin:auto;
     border-left:2.5px #463f3a solid;
