@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/sukka.html">Chicken Sukka</a></li>
-        <li><a href="./recipes/teriyaki.html">Chicken Teriyaki Fried Rice</a></li>
-        <li><a href="./recipes/cookie.html">Chocolate Chip Cookies</a></li>
-    </ul>
+    <div class="main-container">
+        <h1 class="title">Odin <span style="color: #E0AFA0;">Recipes</span></h1>
+        <div class="card-container">
+            <div class="card">
+                <img class="recipe-img" src="img/sukka-thumb.jpg">
+                <a class="card-title" href="./recipes/sukka.html">Chicken <br> Sukka</a>
+            </div>
+            <div class="card">
+                <img class="recipe-img" src="img/teriyaki-thumb.jpg">
+                <a class="card-title" href="./recipes/teriyaki.html">Chicken Teriyaki Fried Rice</a></div>
+            <div class="card">
+                <img class="recipe-img" src="img/cookie-thumb.jpg">
+                <a class="card-title" href="./recipes/cookie.html">Chocolate Chip Cookies</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
